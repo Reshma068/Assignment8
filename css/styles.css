@@ -1,0 +1,344 @@
+/*
+Auther: Gayathri S
+Date:17/12/2021*/
+*{
+	padding: 0;
+	margin:0;
+}
+
+.firstblock {
+	color: #fff;
+	height: 60vh;
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-evenly;
+}
+
+.firstblock h1{
+	font-size: 40px;
+}
+.firstblock p{
+	font-size: 25px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+
+}
+.firstblock a{
+	border:2px solid #00f;
+	text-decoration: none;
+	font-size: 25px;
+	border-radius: 4px;
+	color: #00f;
+	padding: 15px;
+}
+.firstblock a:hover{
+	background-color: #00f;
+	color: #fff;
+}
+/*first section ended*/
+/*second section started*/
+.secondblock{
+	background-color: #fff;
+	height: 45vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+}
+.secondblock h1{
+	
+	padding: 40px;
+
+}
+.secondblock p{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+}
+/*second section ended*/
+/*third section started*/
+.thirdblock{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+	background-color: #333;
+	height: 60vh;
+}
+.thirdblock .col{
+	background-color: #fff;
+	border:solid;
+	border-radius: 8px;
+	width:25%;
+	height: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-evenly;
+
+}
+.col img{
+	
+    width: 85%;
+    height: 60%;
+    border-radius: 8px;
+    
+}
+
+
+
+/*third section ended*/
+/*fifth section started*/
+.fifthblock{
+	height: 50vh;
+	display: flex;
+	
+
+}
+.fifthblock .subblockone{
+	background-color: #0D6EFD;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+.subblockone p,.subblocktwo p{
+	font-size: 20px;
+	padding: 20px;
+	
+}
+.subblockone h1,.subblocktwo h1{
+	font-size: 40px;
+}
+.fifthblock .subblocktwo{
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	width: 50%;
+	color: white;
+
+}
+/*fifth section ended*/
+/*media query*/
+@media only screen and (max-width: 600px) {
+	/*/*.firstblock {
+	text-align: center;
+	color: #fff;
+	height: 72vh;
+
+}
+.firstblock a{
+	border:2px solid #00f;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 4px;
+	color: #00f;
+}
+
+.firstblock p{
+	font-size: 18px;
+	padding: 0;
+	padding: 20px;
+
+}
+.firstblock h1{
+	font-size: 27px;
+	padding-top: 35px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+.secondblock{
+	background-color: #fff;
+	height: auto;
+	text-align: center;
+}
+.secondblock h1{
+	font-size: 25px;
+	padding-top: 20px;
+	margin-bottom: 15px
+
+}
+.secondblock p{
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.thirdblock{
+	display: block;
+	/*position: relative;*/
+/*	height: 55vh;
+*/	/*padding-bottom: 30px;
+	padding-top: 20px;
+	background-color: #333;
+	height: auto;
+}
+.thirdblock .col{
+	background-color: #fff;
+	border:solid;
+	border-radius: 8px;
+	width:70%;
+	height: 75%;
+	position: relative;
+	margin:auto;
+	padding:20px;
+
+}
+.col img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 120px;
+    border-radius: 8px;
+}
+
+
+.col p{
+	padding-bottom: 15px;
+	text-align: center;
+}
+.col h2{
+	padding:10px;
+	text-align: center;
+}
+.fifthblock{
+	
+	display: block;
+	}
+.fifthblock .subblockone{
+	background-color: #0D6EFD;
+	text-align: center;
+	padding-top: 40px;
+	width: 100%;
+	height: 40vh;
+	
+	
+}
+.subblockone p,.subblocktwo p{
+	font-size: 20px;
+	
+}
+.subblockone h1,.subblocktwo h1{
+	font-size: 40px;
+}
+.fifthblock .subblocktwo{
+	background-color: #333;
+	height: 40vh;
+	text-align: center;
+	padding-top: 40px;
+	width: 100%;
+	color: white;
+
+
+}*/
+.firstblock {
+	color: #fff;
+	height: auto;
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+	padding: 20px;
+}
+.firstblock h1{
+	font-size: 30px;
+}
+.firstblock p{
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding: 30px;
+
+
+}
+.secondblock{
+	background-color: #fff;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	text-align: center;
+}
+.secondblock h1{
+	
+	padding: 20px;
+	font-size: 28px;
+
+}
+.secondblock p{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+.thirdblock{
+	background-color: #333;
+	height: 200vh;
+	display: flex;
+	justify-content: center;
+
+}
+.thirdblock .col{
+	background-color: #fff;
+	border:solid;
+	border-radius: 8px;
+	width:80%;
+	height: 30%;
+	text-align: center;
+	margin: 15px 0;
+}
+.col img{
+	
+    width: 85%;
+    height: 60%;
+    border-radius: 8px;
+    
+}
+.fifthblock{
+
+	display: block;
+	
+
+}
+.fifthblock .subblockone{
+	background-color: #0D6EFD;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	height: 40vh;
+}
+.subblockone p,.subblocktwo p{
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.subblockone h1,.subblocktwo h1{
+	font-size: 40px;
+}
+.fifthblock .subblocktwo{
+	background-color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	color: white;
+	height: 40vh;
+
+}
+}
